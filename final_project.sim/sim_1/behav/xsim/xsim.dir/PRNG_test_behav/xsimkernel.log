@@ -1,0 +1,4 @@
+Running: xsim.dir/PRNG_test_behav/xsimk.exe -simmode gui -wdb PRNG_test_behav.wdb -simrunnum 0 -socket 65493
+Design successfully loaded
+Design Loading Memory Usage: 8580 KB (Peak: 8580 KB)
+Design Loading CPU Usage: 62 ms
