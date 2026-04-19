@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-//comment
+//another comment
 module random_led(
     input clk,
     input rst,
