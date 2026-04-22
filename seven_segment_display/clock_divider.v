@@ -26,8 +26,9 @@ module Clock_divider(
 	reg[32:0] count;
 
 	initial begin
-		// initialize everything to zero
-	end
+        count   = 0;
+        out_clk = 0;
+    end
 	
 	always @(negedge in_clk)
 	begin
@@ -39,7 +40,12 @@ module Clock_divider(
 		
 		//     then flip the output clock,   (use non-blocking assignment)
 		//     and reset count to zero.      (use non-blocking assignment)
-	end
+        count = count + 1;
 
+        if (count == 50_000_000) begin
+            out_clk <= ~out_clk;
+            count   <= 0;
+        end
+    end
 
 endmodule

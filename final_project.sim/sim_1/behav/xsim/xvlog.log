@@ -1,6 +1,14 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ppanchal/Downloads/pseudorandom_number_generator/PRNG.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PRNG
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ppanchal/Downloads/pseudorandom_number_generator/PRNG_test.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PRNG_test
-INFO: [VRFC 10-2263] Analyzing Verilog file "X:/final_project/final_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/clock_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/faster_clock_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module faster_clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/hit_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hit_detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sim_1/new/hit_detect_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hit_detect_tb

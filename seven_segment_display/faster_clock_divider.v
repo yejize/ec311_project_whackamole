@@ -26,15 +26,20 @@ module faster_clock_divider(
 
 	initial begin
 		// initialize everything to zero
+		count = 0;
+		out_clk = 0;
 	end
 	
 	always @(negedge in_clk)
 	begin
 		// increment count by one
+		count = count + 1;
 		// if count equals to some big number (that you need to calculate),
 		//   then flip the output clock,
 		//   and reset count to zero.
+        if (count == 50_000) begin
+            out_clk <= ~out_clk;
+            count   <= 0;
+        end
 	end
-
-
 endmodule

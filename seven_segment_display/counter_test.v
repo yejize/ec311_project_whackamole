@@ -25,21 +25,25 @@ module counter_test(
     );
     
     reg clock; 
+    reg [15:0]number;
     wire [6:0] cathode;
     wire [7:0] anode;
     
     counter DUT (
         .clock(clock),
+        .number(number),
         .cathode(cathode),
         .anode(anode)
     ); 
     
     // Clock generator
     always #1 clock = ~clock;
+    always #20 number = number + 1;
     
     initial begin
         clock = 0;
+        number = 0;
     end
-    initial #100 $finish;
+    initial #1000 $finish;
     
 endmodule

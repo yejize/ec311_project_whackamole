@@ -2,6 +2,12 @@
 2020.2
 May 22 2024
 19:03:11
-C:/Users/ppanchal/Downloads/pseudorandom_number_generator/PRNG.v,1776632983,verilog,,C:/Users/ppanchal/Downloads/pseudorandom_number_generator/PRNG_test.v,,PRNG,,,,,,,,
-C:/Users/ppanchal/Downloads/pseudorandom_number_generator/PRNG_test.v,1776632983,verilog,,,,PRNG_test,,,,,,,,
-X:/final_project/final_project.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.sim/sim_1/behav/xsim/glbl.v,1776633786,verilog,,,,glbl,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sim_1/new/hit_detect_tb.v,1776893146,verilog,,,,hit_detect_tb,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/hit_detect.v,1776893359,verilog,,X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sim_1/new/hit_detect_tb.v,,hit_detect,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/clock_divider.v,1776891097,verilog,,X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/counter.v,,Clock_divider,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/counter.v,1776891588,verilog,,X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/decoder.v,,counter,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/counter_test.v,1776892811,verilog,,,,counter_test,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/decoder.v,1776889879,verilog,,X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/faster_clock_divider.v,,decoder,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/faster_clock_divider.v,1776891197,verilog,,X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/fsm.v,,faster_clock_divider,,,,,,,,
+X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/fsm.v,1776892814,verilog,,X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/hit_detect.v,,fsm,,,,,,,,

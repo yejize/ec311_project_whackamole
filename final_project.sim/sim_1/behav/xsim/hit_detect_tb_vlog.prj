@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../seven_segment_display/clock_divider.v" \
+"../../../../seven_segment_display/counter.v" \
+"../../../../seven_segment_display/decoder.v" \
+"../../../../seven_segment_display/faster_clock_divider.v" \
+"../../../../seven_segment_display/fsm.v" \
+"../../../../final_project.srcs/sources_1/new/hit_detect.v" \
+"../../../../final_project.srcs/sim_1/new/hit_detect_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
