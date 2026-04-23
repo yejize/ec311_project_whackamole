@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
-
-module random_led(
+//another comment
+module randomLED(
     input clk,
     input rst,
     output reg [15:0] leds
