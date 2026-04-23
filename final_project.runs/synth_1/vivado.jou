@@ -3,11 +3,11 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Apr 22 11:58:05 2026
-# Process ID: 13128
+# Start of session at: Thu Apr 23 15:15:57 2026
+# Process ID: 21184
 # Current directory: X:/ec311_project_whackamole/final_project.runs/synth_1
-# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
-# Log file: X:/ec311_project_whackamole/final_project.runs/synth_1/top_module.vds
+# Command line: vivado.exe -log mole_main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mole_main.tcl
+# Log file: X:/ec311_project_whackamole/final_project.runs/synth_1/mole_main.vds
 # Journal file: X:/ec311_project_whackamole/final_project.runs/synth_1\vivado.jou
 # Running On        :ECE-PHO115-13
 # Platform          :Windows Server 2016 or Windows 10
@@ -17,8 +17,8 @@
 # CPU Physical cores:12
 # CPU Logical cores :20
 # Host memory       :16853 MB
-# Swap memory       :3112 MB
-# Total Virtual     :19966 MB
-# Available Virtual :5018 MB
+# Swap memory       :3464 MB
+# Total Virtual     :20318 MB
+# Available Virtual :3830 MB
 #-----------------------------------------------------------
-source top_module.tcl -notrace
+source mole_main.tcl -notrace

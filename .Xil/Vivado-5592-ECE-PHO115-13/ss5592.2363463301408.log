@@ -1,0 +1,13 @@
+srcscan starts
+INFO: analyzing module PRNG (VERI-9002)
+INFO: analyzing module led_timer (VERI-9002)
+INFO: analyzing module randomLED (VERI-9002)
+INFO: analyzing module mole_main (VERI-9002)
+INFO: analyzing module mole_timer (VERI-9002)
+INFO: analyzing module decoder (VERI-9002)
+INFO: analyzing module Clock_divider (VERI-9002)
+INFO: analyzing module counter (VERI-9002)
+INFO: analyzing module faster_clock_divider (VERI-9002)
+INFO: analyzing module fsm (VERI-9002)
+INFO: analyzing module hit_detect (VERI-9002)
+srcscan exits with return value 0
