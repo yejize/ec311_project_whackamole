@@ -22,30 +22,27 @@
 
 module hit_detect(
     input clk,
+    input rst,
     input [15:0] switches,
     input [15:0] leds,
     output [6:0] cathode,
     output [7:0] anode,
     output [15:0] score_out
 );
-
     reg [15:0] score;
     reg [15:0] switches_prev;
 
-    initial begin
-        score = 0;
-        switches_prev = 0;
-    end
-
     assign score_out = score;
-
     counter d(.clock(clk), .number(score), .cathode(cathode), .anode(anode));
 
-    always @(posedge clk) begin
-        switches_prev <= switches;
-
-        if ((switches == leds) && (switches_prev != leds))
-            score <= score + 1;
+    always @(posedge clk or posedge rst) begin
+        if (rst) begin
+            score        <= 0;
+            switches_prev <= 0;
+        end else begin
+            switches_prev <= switches;
+            if ((switches == leds) && (switches_prev != leds) && (leds != 0))
+                score <= score + 1;
+        end
     end
-
 endmodule

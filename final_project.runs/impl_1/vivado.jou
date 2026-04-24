@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Apr 24 14:36:26 2026
-# Process ID: 13472
+# Start of session at: Fri Apr 24 18:11:22 2026
+# Process ID: 3164
 # Current directory: X:/ec311_project_whackamole/final_project.runs/impl_1
 # Command line: vivado.exe -log mole_main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mole_main.tcl -notrace
 # Log file: X:/ec311_project_whackamole/final_project.runs/impl_1/mole_main.vdi
@@ -17,8 +17,8 @@
 # CPU Physical cores:12
 # CPU Logical cores :20
 # Host memory       :16853 MB
-# Swap memory       :2550 MB
-# Total Virtual     :19403 MB
-# Available Virtual :5555 MB
+# Swap memory       :2775 MB
+# Total Virtual     :19628 MB
+# Available Virtual :3946 MB
 #-----------------------------------------------------------
 source mole_main.tcl -notrace

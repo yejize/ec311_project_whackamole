@@ -56,6 +56,8 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 5
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -72,7 +74,13 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   X:/ec311_project_whackamole/PRNG.v
-  X:/ec311_project_whackamole/final_project.srcs/sources_1/new/led_timer.v
+  X:/ec311_project_whackamole/final_project.srcs/sources_1/new/buzzer.v
+  X:/ec311_project_whackamole/seven_segment_display/clock_divider.v
+  X:/ec311_project_whackamole/seven_segment_display/counter.v
+  X:/ec311_project_whackamole/seven_segment_display/decoder.v
+  X:/ec311_project_whackamole/seven_segment_display/faster_clock_divider.v
+  X:/ec311_project_whackamole/seven_segment_display/fsm.v
+  X:/ec311_project_whackamole/final_project.srcs/sources_1/new/hit_detect.v
   X:/ec311_project_whackamole/final_project.srcs/sources_1/new/randomLED.v
   X:/ec311_project_whackamole/final_project.srcs/sources_1/new/mole_main.v
 }

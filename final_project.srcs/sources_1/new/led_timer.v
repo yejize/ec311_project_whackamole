@@ -20,13 +20,37 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+//module led_timer(
+//    input clk_in,
+//    input rst,
+//    output reg divided_clk 
+//);
+//parameter toggle_value = 49_999_999; 
+//reg [25:0] cnt;
+//always @(posedge clk_in or posedge rst) begin
+//    if (rst) begin
+//        cnt <= 0;
+//        divided_clk <= 0;
+//    end else begin
+//        divided_clk <= 0;
+//        if (cnt == toggle_value) begin
+//            cnt <= 0;
+//            divided_clk <= 1;
+//        end else begin
+//            cnt <= cnt + 1;
+//        end
+//    end
+//end
+////endmodule
+
+
 module led_timer(
     input clk_in,
     input rst,
     output reg divided_clk
 );
 
-parameter toggle_value = 49_999_999; 
+parameter toggle_value = 24_444_444; 
 
 reg [25:0] cnt;
 
