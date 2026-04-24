@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='X:/ec311_project_whackamole/final_project.runs/synth_1'
+HD_PWD='X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

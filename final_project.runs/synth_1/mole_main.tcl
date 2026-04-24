@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "X:/ec311_project_whackamole/final_project.runs/synth_1/mole_main.tcl"
+  variable script "X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.runs/synth_1/mole_main.tcl"
   variable category "vivado_synth"
 }
 
@@ -58,25 +58,32 @@ if {$::dispatch::connected} {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 5
 set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir X:/ec311_project_whackamole/final_project.cache/wt [current_project]
-set_property parent.project_path X:/ec311_project_whackamole/final_project.xpr [current_project]
+set_property webtalk.parent_dir X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.cache/wt [current_project]
+set_property parent.project_path X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo x:/ec311_project_whackamole/final_project.cache/ip [current_project]
+set_property ip_output_repo x:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  X:/ec311_project_whackamole/PRNG.v
-  X:/ec311_project_whackamole/final_project.srcs/sources_1/new/led_timer.v
-  X:/ec311_project_whackamole/final_project.srcs/sources_1/new/randomLED.v
-  X:/ec311_project_whackamole/final_project.srcs/sources_1/new/mole_main.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/PRNG.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/clock_divider.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/counter.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/decoder.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/faster_clock_divider.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/seven_segment_display/fsm.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/hit_detect.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/led_timer.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/randomLED.v
+  X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/sources_1/new/mole_main.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -87,12 +94,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc
-set_property used_in_implementation false [get_files C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc]
+read_xdc C:/Users/layton/Downloads/Nexys4DDR_Master.xdc
+set_property used_in_implementation false [get_files C:/Users/layton/Downloads/Nexys4DDR_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental X:/ec311_project_whackamole/final_project.srcs/utils_1/imports/synth_1/mole_main.dcp
+read_checkpoint -auto_incremental -incremental X:/layton-sahler/sahler-layton/ec311_project_whackamole/final_project.srcs/utils_1/imports/synth_1/mole_main.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
