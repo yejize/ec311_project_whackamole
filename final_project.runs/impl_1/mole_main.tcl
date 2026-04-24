@@ -105,7 +105,6 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 5
-  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 10  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a100tcsg324-1
@@ -121,7 +120,7 @@ OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet X:/ec311_project_whackamole/final_project.runs/synth_1/mole_main.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc
+  read_xdc X:/Nexys4DDR_Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

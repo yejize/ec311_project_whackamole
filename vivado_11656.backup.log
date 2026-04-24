@@ -3,13 +3,13 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Apr 24 14:31:03 2026
-# Process ID: 12472
+# Start of session at: Thu Apr 23 08:48:29 2026
+# Process ID: 11656
 # Current directory: X:/ec311_project_whackamole
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15836 X:\ec311_project_whackamole\final_project.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19064 X:\ec311_project_whackamole\final_project.xpr
 # Log file: X:/ec311_project_whackamole/vivado.log
 # Journal file: X:/ec311_project_whackamole\vivado.jou
-# Running On        :ECE-PHO115-16
+# Running On        :ECE-PHO115-13
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :19045
 # Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700K
@@ -17,11 +17,13 @@
 # CPU Physical cores:12
 # CPU Logical cores :20
 # Host memory       :16853 MB
-# Swap memory       :2550 MB
-# Total Virtual     :19403 MB
-# Available Virtual :8704 MB
+# Swap memory       :3117 MB
+# Total Virtual     :19971 MB
+# Available Virtual :5953 MB
 #-----------------------------------------------------------
-start_guioopen_project X:/ec311_project_whackamole/final_project.xprWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+start_gui
+open_project X:/ec311_project_whackamole/final_project.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
@@ -31,32 +33,21 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 avail
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
 INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'X:/ec311_project_whackamole/final_project.gen/sources_1'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1688.098 ; gain = 445.473
-update_compile_order -fileset sources_1WARNING: [Common 17-9] Error reading message records.
-WARNING: [Common 17-9] Error reading message records.
-/Downloads/Nexys4DDR_Master.xdc
-update_files -from_files X:/Nexys4DDR_Master.xdc -to_files C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc -filesets [get_filesets *]
-INFO: [filemgmt 20-762] Replacing file 'C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc' with file 'X:/Nexys4DDR_Master.xdc'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1669.371 ; gain = 415.562
+update_compile_order -fileset sources_1
 reset_run synth_1
-INFO: [Project 1-1161] Replacing file X:/ec311_project_whackamole/final_project.srcs/utils_1/imports/synth_1/mole_main.dcp with file X:/ec311_project_whackamole/final_project.runs/synth_1/mole_main.dcp
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory X:/ec311_project_whackamole/final_project.runs/synth_1
-
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\randomLED.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\mole_main.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\randomLED.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\randomLED.v:]
-ERROR: [Common 17-180] Spawn failed: No error
+INFO: [Project 1-1161] Replacing file X:/ec311_project_whackamole/final_project.srcs/utils_1/imports/syexit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 23 08:53:41 2026...
+uns/synth_1/mole_main.dcp
 launch_runs impl_1 -to_step write_bitstream -jobs 10
-[Fri Apr 24 14:35:40 2026] Launched synth_1...
+[Thu Apr 23 08:50:23 2026] Launched synth_1...
 Run output will be captured here: X:/ec311_project_whackamole/final_project.runs/synth_1/runme.log
-[Fri Apr 24 14:35:40 2026] Launched impl_1...
+[Thu Apr 23 08:50:23 2026] Launched impl_1...
 Run output will be captured here: X:/ec311_project_whackamole/final_project.runs/impl_1/runme.log
 open_hw_manager
 connect_hw_server -allow_non_jtag
@@ -82,9 +73,9 @@ INFO: [Labtools 27-2221] Launch Output:
 
 
 
-connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1731.398 ; gain = 0.000
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1707.027 ; gain = 8.809
 open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF39EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF490A
 set_property PROGRAM.FILE {X:/ec311_project_whackamole/final_project.runs/impl_1/mole_main.bit} [get_hw_devices xc7a100t_0]
 current_hw_device [get_hw_devices xc7a100t_0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
@@ -96,8 +87,6 @@ program_hw_devices [get_hw_devices xc7a100t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\randomLED.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\mole_main.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\randomLED.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [X:\ec311_project_whackamole\final_project.srcs\sources_1\new\randomLED.v:]
-ERROR: [Common 17-180] Spawn failed: No error
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 23 08:53:17 2026...

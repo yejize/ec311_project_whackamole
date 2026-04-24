@@ -1,0 +1,541 @@
+/*
+
+AMD Vivado v2024.1 (64-bit) [Major: 2024, Minor: 1]
+SW Build: 5076996 on Wed May 22 18:37:14 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+
+Process ID (PID): 12472
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Apr 24 14:31:14 EDT 2026
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1040
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+JavaFX version: 21.0.1
+Java home: 	C:/Xilinx/Vivado/2024.1/tps/win64/jre21.0.1_12
+Java executable: 	C:/Xilinx/Vivado/2024.1/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	ppanchal
+User home directory: C:/Users/ppanchal
+User working directory: X:/ec311_project_whackamole
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2024.1
+RDI_DATADIR: C:/Xilinx/SharedData/2024.1/data;C:/Xilinx/Vivado/2024.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2024.1/bin
+
+Vivado preferences file: C:/Users/ppanchal/AppData/Roaming/Xilinx/Vivado/2024.1/vivado.xml
+Vivado preferences directory: C:/Users/ppanchal/AppData/Roaming/Xilinx/Vivado/2024.1/
+Vivado layouts directory: C:/Users/ppanchal/AppData/Roaming/Xilinx/Vivado/2024.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2024.1/lib/classes/planAhead.jar
+Vivado log file: 	X:/ec311_project_whackamole/vivado.log
+Vivado journal file: 	X:/ec311_project_whackamole/vivado.jou
+Engine tmp dir: 	X:/ec311_project_whackamole/.Xil/Vivado-12472-ECE-PHO115-16
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2024.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent15836 "X:\ec311_project_whackamole\final_project.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2024.1/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2024.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/SharedData/2024.1/data;C:/Xilinx/Vivado/2024.1/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2024.1
+RDI_INSTALLVERSION: 2024.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2024.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2024.1/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2024.1/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: C:/Xilinx/Vivado/2024.1/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2024.1\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2024.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2024.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2024.1/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: X:\ec311_project_whackamole:ECE-PHO115-16-Fri04-24-2026_14-31-02.34
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2024.1/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2024.1/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2024.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@XilinxLM.bu.edu
+XILINX_DSP: C:/Xilinx/Vivado/2024.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2024.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2024.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2024.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2024.1
+_RDI_BINROOT: C:\Xilinx\Vivado\2024.1\bin
+_RDI_CWD: X:\ec311_project_whackamole
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,091 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 86 MB (+87790kb) [00:00:05]
+// [Engine Memory]: 852 MB (+741534kb) [00:00:05]
+// Opening Vivado Project: X:\ec311_project_whackamole\final_project.xpr. Version: Vivado v2024.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project X:/ec311_project_whackamole/final_project.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,136 MB. GUI used memory: 66 MB. Current time: 4/24/26, 2:31:15 PM EDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 125 MB (+36507kb) [00:00:13]
+// [Engine Memory]: 1,229 MB (+351107kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  1505 ms.
+// Tcl Message: open_project X:/ec311_project_whackamole/final_project.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'X:/ec311_project_whackamole/final_project.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'. 
+// [Engine Memory]: 1,314 MB (+24093kb) [00:00:14]
+// Project name: final_project; location: X:/ec311_project_whackamole; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1688.098 ; gain = 445.473 
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 140 MB (+8765kb) [00:00:18]
+// Elapsed time: 18 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES)
+selectButton("NEXT", "Next >", "Add Sources"); // JButton (NEXT)
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "Nexys4DDR_Master.xdc ; C:\\Users\\ppanchal\\Downloads", 0, "C:\\Users\\ppanchal\\Downloads", 1); // f.d (PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c (dialog1)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Tcl Message: reorder_files -fileset constrs_1 -before C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+dismissDialog("Unable to Open File"); // R.a (dialog2)
+// [GUI Memory]: 147 MB (+511kb) [00:01:15]
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+dismissDialog("Unable to Open File"); // R.a (dialog3)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ap (PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, src_replace_menu)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// Elapsed time: 11 seconds
+setFileChooser("X:/Nexys4DDR_Master.xdc");
+// 'dJ' command handler elapsed time: 11 seconds
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files X:/Nexys4DDR_Master.xdc -to_files C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/ppanchal/Downloads/Nexys4DDR_Master.xdc' with file 'X:/Nexys4DDR_Master.xdc'. 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 496, 123); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 545, 114); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 538, 110); // ac (Nexys4DDR_Master.xdc)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("mole_main.v", 88, 213); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 143, 217); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 146, 216); // ac (mole_main.v)
+typeControlKey((HResource) null, "mole_main.v", 'c'); // ac (mole_main.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys4DDR_Master.xdc", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 570, 127); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 545, 184); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 2, 301); // ac (Nexys4DDR_Master.xdc)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,340 MB. GUI used memory: 78 MB. Current time: 4/24/26, 2:33:40 PM EDT
+selectCodeEditor("Nexys4DDR_Master.xdc", 516, 114); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 570, 97); // ac (Nexys4DDR_Master.xdc)
+// Elapsed time: 13 seconds
+selectCodeEditor("Nexys4DDR_Master.xdc", 553, 112); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'c'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 567, 124); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 563, 140); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 565, 160); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 567, 175); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 10, 198); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 540, 199); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 877, 351); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 542, 218); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 537, 234); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Nexys4DDR_Master.xdc", 550, 103); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 550, 121); // ac (Nexys4DDR_Master.xdc)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mole_main.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mole_main.v", 99, 74); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 108, 191); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 122, 298); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 124, 321); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 127, 335); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 132, 355); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 72, 424); // ac (mole_main.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v), led : randomLED (randomLED.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v), led : randomLED (randomLED.v)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("randomLED.v", 171, 163); // ac (randomLED.v)
+selectCodeEditor("randomLED.v", 100, 253); // ac (randomLED.v)
+selectCodeEditor("randomLED.v", 129, 316); // ac (randomLED.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, hit_detect (hit_detect.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v), clk_5sec : led_timer (led_timer.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mole_main.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys4DDR_Master.xdc", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 16, true, false, false, false, true, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // t (dialog5)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file X:/ec311_project_whackamole/final_project.srcs/utils_1/imports/synth_1/mole_main.dcp with file X:/ec311_project_whackamole/final_project.runs/synth_1/mole_main.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cI' command handler elapsed time: 9 seconds
+dismissDialog("Launch Runs"); // cL (dialog6)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr 24 14:35:40 2026] Launched synth_1... Run output will be captured here: X:/ec311_project_whackamole/final_project.runs/synth_1/runme.log [Fri Apr 24 14:35:40 2026] Launched impl_1... Run output will be captured here: X:/ec311_project_whackamole/final_project.runs/impl_1/runme.log 
+// [GUI Memory]: 157 MB (+2724kb) [00:04:36]
+dismissDialog("Generate Bitstream"); // bj (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 109 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // u (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+dismissDialog("Open Hardware Manager"); // bj (Open Hardware Manager Progress)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ap (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2024.1.0   **** Build date : Mar  6 2024 at 20:50:54     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2024.1.0   ****** Build date   : Mar 08 2024-19:00:37     **** Build number : 2024.1.1709942437       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1731.398 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF39EA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {X:/ec311_project_whackamole/final_project.runs/impl_1/mole_main.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 1,390 MB (+11572kb) [00:06:35]
+dismissDialog("Auto Connect"); // bj (Auto Connect Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,397 MB. GUI used memory: 85 MB. Current time: 4/24/26, 2:37:40 PM EDT
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aP (dialog8)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {X:/ec311_project_whackamole/final_project.runs/impl_1/mole_main.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bj (Program Device Progress)
+// Elapsed time: 801 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ah (PAResourceItoN.MainMenuMgr_WINDOW, Window)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ap (PAResourceCommand.PACommandNames_FILESET_WINDOW, view_filesets_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ah (PAResourceItoN.MainMenuMgr_WINDOW, Window)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+// Elapsed time: 263 seconds
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 212); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 538, 307); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 538, 307, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 562, 311); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 575, 314); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 574, 314, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 8, 307); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 156, 334); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 528, 211); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 528, 211, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 590, 210); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 590, 210, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 593, 212); // ac (Nexys4DDR_Master.xdc)
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'c'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 536, 228); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 536, 228, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 537, 246); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 537, 246, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 538, 267); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 538, 267, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 537, 288); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 537, 288, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 535, 297); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 535, 297, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 313); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 313, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 542, 321); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 542, 321, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'c'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 534, 332); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 534, 332, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 535, 348); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 535, 348, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 534, 363); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 365, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 532, 385); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 532, 385, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 530, 400); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 530, 400, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 420); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 420, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 532, 423); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 532, 423, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 533, 429); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 533, 429, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 450); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 450, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 465); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 531, 465, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 462); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 9, 451); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 5, 434); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 5, 420); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 402); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 10, 387); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 8, 362); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 8, 345); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 4, 326); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 7, 306); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 7, 295); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 286); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 253); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 5, 265); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 4, 236); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 581, 230); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 506, 234); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 571, 245); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 511, 186); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 511, 192); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 558, 204); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 302); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 318); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 326); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 7, 348); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 3, 362); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 371); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 383); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 399); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 10, 316); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 5, 329); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 348); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 7, 368); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 7, 379); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 5, 391); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 6, 412); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 4, 433); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 522, 142); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 522, 142, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 550, 143); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 550, 143, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'c'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 163); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 163, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 524, 177); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 524, 177, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 201); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 201, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 526, 216); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 526, 216, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 226); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 226, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 518, 247, false, true, false, false, false); // ac (Nexys4DDR_Master.xdc) - Control Key
+selectCodeEditor("Nexys4DDR_Master.xdc", 520, 248, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 521, 248); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 524, 246); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 245, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 578, 241); // ac (Nexys4DDR_Master.xdc)
+// Elapsed time: 26 seconds
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'c'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 516, 330); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 523, 330); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 523, 330, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 345); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 527, 346, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 360); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 360, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 528, 379); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 528, 379, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 520, 404); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 520, 404, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Nexys4DDR_Master.xdc", 528, 393); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 528, 393, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 526, 408); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 526, 408, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 425); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 525, 425, false, false, false, false, true); // ac (Nexys4DDR_Master.xdc) - Double Click
+typeControlKey((HResource) null, "Nexys4DDR_Master.xdc", 'v'); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 557, 348); // ac (Nexys4DDR_Master.xdc)
+// Elapsed time: 13 seconds
+selectCodeEditor("Nexys4DDR_Master.xdc", 421, 159); // ac (Nexys4DDR_Master.xdc)
+selectCodeEditor("Nexys4DDR_Master.xdc", 661, 360); // ac (Nexys4DDR_Master.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Nexys4DDR_Master.xdc", 358, 262); // ac (Nexys4DDR_Master.xdc)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, hit_detect (hit_detect.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, hit_detect (hit_detect.v)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, hit_detect (hit_detect.v), d : counter (counter.v)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, hit_detect (hit_detect.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("hit_detect.v", 335, 153); // ac (hit_detect.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mole_main (mole_main.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("mole_main.v", 188, 282); // ac (mole_main.v)
+selectCodeEditor("mole_main.v", 207, 260); // ac (mole_main.v)

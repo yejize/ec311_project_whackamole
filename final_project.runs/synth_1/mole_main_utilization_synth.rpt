@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Thu Apr 23 15:16:31 2026
-| Host         : ECE-PHO115-13 running 64-bit major release  (build 9200)
+| Date         : Fri Apr 24 14:36:18 2026
+| Host         : ECE-PHO115-16 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mole_main_utilization_synth.rpt -pb mole_main_utilization_synth.pb
 | Design       : mole_main
 | Device       : xc7a100tcsg324-1

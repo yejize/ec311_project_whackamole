@@ -3,13 +3,13 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Apr 23 15:16:38 2026
-# Process ID: 13424
+# Start of session at: Fri Apr 24 14:36:26 2026
+# Process ID: 13472
 # Current directory: X:/ec311_project_whackamole/final_project.runs/impl_1
 # Command line: vivado.exe -log mole_main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mole_main.tcl -notrace
 # Log file: X:/ec311_project_whackamole/final_project.runs/impl_1/mole_main.vdi
 # Journal file: X:/ec311_project_whackamole/final_project.runs/impl_1\vivado.jou
-# Running On        :ECE-PHO115-13
+# Running On        :ECE-PHO115-16
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :19045
 # Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700K
@@ -17,8 +17,8 @@
 # CPU Physical cores:12
 # CPU Logical cores :20
 # Host memory       :16853 MB
-# Swap memory       :3763 MB
-# Total Virtual     :20616 MB
-# Available Virtual :4221 MB
+# Swap memory       :2550 MB
+# Total Virtual     :19403 MB
+# Available Virtual :5555 MB
 #-----------------------------------------------------------
 source mole_main.tcl -notrace
